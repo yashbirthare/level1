@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    height: 1200px;
+    align-items: center;
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 1rem;
+    width: solid black;
+
+}
+
+.card + .bottom {
+    align-self: flex-end;
+}
+
+.btn {
+    text-align: center;
+} 

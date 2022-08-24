@@ -7,12 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+     <script>
+        let complete = false; 
+     let prom = new promise(function(resolve, reject) {
+        if (complete) {
+            resolve("I am successfull.");
+        }else{
+            reject("I am failed.");
+        }
+     });
+
+     </script>
+
+
+
 
 </head>
-
 <body>
 
-
 </body>
-
 </html>
